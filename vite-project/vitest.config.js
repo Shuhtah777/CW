@@ -6,6 +6,7 @@ export default defineConfig({
     browser: {
       enabled: true,
       provider: 'playwright',
+      testerHtmlPath: "./index.html",
       // https://vitest.dev/guide/browser/playwright
       instances: [
         { browser: 'chromium' },

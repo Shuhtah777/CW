@@ -1,4 +1,3 @@
-import './testSetup.js';
 import { test, expect } from 'vitest';
 import { 
   emailInput, passwordInput, confirmPasswordInput, 
