@@ -7,7 +7,6 @@ import {
 import './style.css';
 
 
-
 test('валидация email: корректный email', () => {
   emailInput.value = 'test@example.com';
   emailInput.dispatchEvent(new Event('blur'));
